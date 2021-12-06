@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gondurova Daria" />
+    <title>Solution of quadratic equations</title>
+    <link href="quadrSolStyles.css" rel="stylesheet" type="text/css" media="screen">
+    <script type="text/javascript" src="quadraticSolution.js"></script>
+</head>
+<body>
+<h1>Подсчёт корней квадратного уравнения</h1>
+<div>
+    <h2>Введите коэффициенты:</h2>
+    <p>
+        <input id="text1" type="text" />
+        x<sup><small>2</small></sup>+
+        <input id="text2" type="text" />
+        x+
+        <input id="text3" type="text" />
+        = 0
+    </p>
+    <button onclick="equationSolution()">посчитать</button>
+</div>
+<h2>Таблица результатов</h2>
+<table>
+    <tr id="table"><td><p>№</p></td><td><p>Решение</p></td></tr>
+</table>
+</body>
+</html>
